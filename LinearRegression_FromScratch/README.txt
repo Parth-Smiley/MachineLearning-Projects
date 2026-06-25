@@ -1,0 +1,1 @@
+implemeted linear regression model from the scartch and implemented print operations to check out model working and undestanding.
