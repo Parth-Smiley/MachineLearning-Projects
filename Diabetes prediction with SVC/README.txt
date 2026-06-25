@@ -1,0 +1,1 @@
+used the Support vector classifier to make this diabetes predictor.
