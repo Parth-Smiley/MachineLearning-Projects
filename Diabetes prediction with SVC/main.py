@@ -19,7 +19,10 @@ Y = dataframe['Outcome']
 
 X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size = 0.2, stratify=Y, random_state=2)
 
-classifier = svm.SVC(kernel='linear')
+classifier = svm.SVC(kernel='linear') #can use poly or rbf too the score are for poly - Accuracy score of the training data :  0.7752442996742671
+#                                                                                       Accuracy score of the test data :  0.7597402597402597 and 
+#                                                                            for rbf - Accuracy score of the training data :  0.7638436482084691
+#                                                                                       Accuracy score of the test data :  0.7857142857142857
 classifier.fit(X_train, Y_train)
 
 X_train_prediction = classifier.predict(X_train)

@@ -1,0 +1,1 @@
+Did the houseprice prediciton problem with california dataset but this time used the linear rergession model and than compared with ridge and lasso.
